@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test:html"
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker *.html"
   },
   "repository": {
     "type": "git",
